@@ -1,0 +1,87 @@
+.mainContainer
+{
+  background-color: rgb(105,105,105,0.5);
+  border-radius: 12px;
+  display: flex;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 2em;
+}
+
+.titleImageContainer
+{
+  border-radius: 12px 12px;
+  box-sizing: border-box;
+  background-color: rgb(128,128,128,0.4);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 40em;
+}
+
+.image
+{
+    border-radius: 0 0 12px 12px;
+    width: 20em;
+}
+
+
+
+.description
+{
+    color: rgb(255, 255, 255);
+    font-size: bold;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+}
+
+.button
+{
+    margin: 1.5em 0 1.5em 0;
+    background-color: rgb(140,140,140, 0.5);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.5s ease; 
+    width: 20em;
+}
+
+.button:hover{
+  background-color:rgb(5, 44, 67, 0.4);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.descriptionContainer 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media (max-width: 750px) 
+{
+  .mainContainer 
+  {
+    display: flex;
+    flex-direction: column;
+    padding:1em;
+  }
+
+  .titleImageContainer
+  {
+    width: 100%;
+  }
+
+  .image 
+  {
+    width: 100%;
+  }
+
+  .button
+  {
+    width: 90%;
+  }
+}
+

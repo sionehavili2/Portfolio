@@ -1,0 +1,89 @@
+.header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: rgb(173, 216, 230, 0.15);
+}
+
+
+.list {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content:baseline;
+  gap: 1.5rem;
+  list-style-type: none;
+}
+
+.list a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+.list a:hover,
+.list a.active {
+  color: rgb(255, 165, 0, 0.8);
+  text-decoration: underline;
+}
+
+.list a.active {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+.mainContainer {
+  background-color: rgb(173, 216, 230, 0.15);
+}
+
+.github 
+{
+  padding-right: 25px;
+}
+
+.logo 
+{
+  width: 55px;
+  height: auto;
+}
+
+.icon
+{
+  width: 20px;
+}
+
+a:hover img {
+  transform: scale(1.1); /* Enlarge the image when hovering */
+}
+
+@media (max-width: 450px) {
+  .header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .list {
+    padding:0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header > *{
+    margin:0;
+    padding:0;
+    align-items: center;
+    align-content: center;
+  }
+
+  .github 
+  {
+    padding:1em;
+    background-color: rgb(173, 216, 230, 0.2);
+  }
+}

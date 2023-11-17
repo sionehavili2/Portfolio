@@ -1,0 +1,38 @@
+
+.container {
+    margin:2.5em;
+    padding:2em;
+    border-radius: 12px;
+    background-color: rgb(128,128,128,0.4);
+    text-align:justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    text-align: center;
+}
+
+.button
+{
+    margin: 1.5em 0 1.5em 0;
+    background-color: rgb(140,140,140, 0.5);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.5s ease; 
+    width: 20em;
+}
+
+@media (max-width: 450px) {
+  .button {
+    width: 95%;
+  }
+}
+
+.button:hover{
+  background-color:rgb(5, 44, 67, 0.4);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  border: none;
+}
