@@ -1,5 +1,8 @@
 import { Link, useNavigate } from "react-router-dom";
 import classes from "./Home.module.css";
+import React from 'react';
+import PdfViewer from '../UI/pdfViewer.jsx';
+import Section from "../UI/Section";
 
 const Home = () => {
 
@@ -58,19 +61,12 @@ const Home = () => {
   return (
     <div className={classes.container}>
       <h2 className={classes.title}>Welcome To my Portfolio!</h2>
-      <p>
-        Hello, I'm Sione Havili, a Computer Science major at Weber State
-        University. This portfolio serves as a showcase of my journey in the
-        realm of technology, specifically highlighting my proficiency in React.
-        Here, you'll find a collection of projects that not only reflect my
-        dedication to the craft but also underscore my ability to construct
-        sleek, efficient, and user-friendly web applications. Explore this space
-        to witness the tangible outcomes of my coding endeavors and discover the
-        practical applications of my skills in the ever-evolving landscape of
-        web development. Welcome to my digital domain, where innovation meets
-        functionality.
+      <p className={classes.description}>
+        Hello, I'm Sione Havili, a software engineer seeking a job opportunity in the Computer Science field.
+        This portfolio was made using React, HTML, CSS and Javscript. Additionally, this portfolio serves as a showcase of projects I have worked on. Please feel free to explore any of my projects.
       </p>
       <button className={classes.button} onClick={()=>{navigate("/portfolio");}}>Begin Exploring Projects</button>
+      <PdfViewer fileUrl="/SioneHavili_Resume.pdf" className={classes.pdfViewer} />
       {/* <button onClick={handleDataPost}>Post Data</button> */}
     </div>
   );

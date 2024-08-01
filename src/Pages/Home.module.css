@@ -11,6 +11,10 @@
     justify-content: space-around;
 }
 
+.container > * {
+  width: 90%;
+}
+
 .title {
     text-align: center;
 }
@@ -35,4 +39,14 @@
   background-color:rgb(5, 44, 67, 0.4);
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
   border: none;
+}
+
+.pdfViewer{
+  width: 100%;
+  border: 5px solid red;
+}
+
+.description{
+  text-align: center;
+  width: 80%;
 }
