@@ -49,7 +49,7 @@ const About = () =>
   };
 
   return (
-    <div>
+    <div className={classes.mainContainer}>
       <div className={classes.titleContainer}>
         <h2>About The Developer</h2>
         <div className={classes.developerParagraph}>{developerParagraph}</div>

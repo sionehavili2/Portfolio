@@ -1,5 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 import ProjectTile from "../UI/ProjectTile";
+import classes from "./Projects.module.css"
 
 const Portfolio = () => 
 {
@@ -30,7 +31,7 @@ const Portfolio = () =>
 
   const mapPortfolios = projects.map((project, index)=><ProjectTile key={index} title={project.title} description={project.description} url={project.url} imgSrc={project.imgPath}/>)
 
-  return <div>{mapPortfolios}</div>;
+  return <div className={classes.container}>{mapPortfolios}</div>;
 };
 
 export default Portfolio;

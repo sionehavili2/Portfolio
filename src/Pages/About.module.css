@@ -2,12 +2,18 @@ button {
   margin-bottom: 10px;
 }
 
+.mainContainer {
+    background-color: rgb(22, 57, 102);
+    padding: 1em;
+}
+
 .titleContainer {
   background-color: rgb(105,105,105,0.6);
   padding: 1em;
   border-radius: 10px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
   margin: 2em;
+  background-color: 4px solid yellow;
 }
 
 .developerParagraph{

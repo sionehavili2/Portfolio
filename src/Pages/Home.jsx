@@ -59,15 +59,17 @@ const Home = () => {
   // }
 
   return (
-    <div className={classes.container}>
-      <h2 className={classes.title}>Welcome To my Portfolio!</h2>
-      <p className={classes.description}>
-        Hello, I'm Sione Havili, a software engineer seeking a job opportunity in the Computer Science field.
-        This portfolio was made using React, HTML, CSS and Javscript. Additionally, this portfolio serves as a showcase of projects I have worked on. Please feel free to explore any of my projects.
-      </p>
-      <button className={classes.button} onClick={()=>{navigate("/portfolio");}}>Begin Exploring Projects</button>
-      <PdfViewer fileUrl="/SioneHavili_Resume.pdf" className={classes.pdfViewer} />
-      {/* <button onClick={handleDataPost}>Post Data</button> */}
+    <div className={classes.mainContainer}>
+      <div className={classes.container}>
+        <h2 className={classes.title}>Welcome To my Portfolio!</h2>
+        <p className={classes.description}>
+          Hello, I'm Sione Havili, a software engineer seeking a job opportunity in the Computer Science field.
+          This portfolio was made using React, HTML, CSS and Javscript. Additionally, this portfolio serves as a showcase of projects I have worked on. Please feel free to explore any of my projects.
+        </p>
+        <button className={classes.button} onClick={()=>{navigate("/portfolio");}}>Begin Exploring Projects</button>
+        <PdfViewer fileUrl="/SioneHavili_Resume.pdf" className={classes.pdfViewer} />
+        {/* <button onClick={handleDataPost}>Post Data</button> */}
+      </div>
     </div>
   );
 };
