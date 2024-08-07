@@ -34,7 +34,8 @@ body {
   margin: 0;
   background-image: url("./background.jpg");
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
+  background-repeat: inherit;
   height: 100%;
   width: 100%;
 }
