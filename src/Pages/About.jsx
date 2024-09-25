@@ -8,23 +8,20 @@ const About = () =>
   const sections = [
     {
       title: "Academic Exploration",
-      content:
-        "In my academic journey, I've taken a variety of courses, ranging from Advanced Database Programming to Game Development with Unity and MERN Web Development. These courses have not only improved my technical skills but also deepened my understanding of the theoretical principles essential for effective software design.",
+      content: "Throughout my academic journey, I have immersed myself in the intricacies of computer science, delving into various domains such as software development, algorithms, and data structures. This exploration has fostered a profound understanding of theoretical concepts, which I have seamlessly translated into practical applications. My curiosity drives me to continuously seek out new learning opportunities, whether through coursework, independent projects, or collaborative initiatives, ensuring that I stay at the forefront of emerging technologies and industry trends.",
+
     },
     {
       title: "Educational Achievements",
-      content:
-        "In addition to pursuing my Bachelor's degree, I've earned an Associate of Applied Science in Computer Science from Weber State University and an Associate of Science In Computer Science And Information Systems from Salt Lake Community College. These academic milestones, coupled with certifications in Software Development and Computer Science Fundamentals, underscore my commitment to continuous learning.",
+      content:"Graduating with a Bachelor of Science in Computer Science from Weber State University in April 2024 stands as a significant milestone in my educational path, showcasing my dedication and resilience. Achieving a GPA of 3.2 reflects my commitment to academic excellence, while my Associate Degree in Computer Systems and Information Systems from Salt Lake Community College further solidifies my foundational knowledge in the field with a 3.4 GPA. I have consistently strived for success, culminating in certifications in Software Development and Computer Science Fundamentals, underscoring my proactive approach to enhancing my skills and knowledge base.",
     },
     {
       title: "Technical Proficiency",
-      content:
-        "My proficiency extends beyond languages and frameworks to include Microsoft Excel, SQL, MongoDB, and Firebase. I am adept at employing Object-Oriented Programming (OOP) principles to build scalable and efficient applications. Whether it's diving into the intricacies of MIPS Assembly or crafting dynamic user interfaces with React JS, I thrive on the challenge of turning concepts into tangible, functional solutions.",
+      content:"My technical proficiency encompasses a diverse array of programming languages and technologies, including JavaScript, Java, C, C#, and Python. I possess hands-on experience in developing full-stack applications, employing frameworks like React or PHP for frontend development and Django for backend services. My expertise extends to database management with PostgreSQL, Google Firebase, Microsoft SQL Server, MySQL, and MongoDB, where I design efficient schemas and implement robust data handling practices. In addition, I have honed my skills in collaborative environments, utilizing version control systems such as Git and GitHub to facilitate streamlined workflows and effective team collaboration.",
     },
     {
       title: "Aspirations and Problem-Solving Approach",
-      content:
-        "Looking ahead, my focus is on contributing to the dynamic field of computer science, with a keen interest in web development and software engineering. I am not merely a coder; I approach challenges as opportunities for creative problem-solving. My goal is to bridge the gap between technology and user experience, delivering solutions that are not just functional but also intuitive and user-friendly.",
+      content: "I aspire to leverage my technical skills to create innovative solutions that address real-world challenges in the software engineering landscape. My problem-solving approach is characterized by a blend of analytical thinking and creativity, allowing me to dissect complex issues and devise effective strategies for resolution. I thrive in dynamic environments where collaboration and communication are key, and I am passionate about fostering inclusive and effective team dynamics. As I move forward in my career, I aim to contribute to projects that not only advance technology but also make a positive impact on society.",
     },
   ];
 
